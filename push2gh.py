@@ -20,18 +20,22 @@ import subprocess
 # Ask user for value for file name
 fileName = input("File Name?") +".md"
 # Ask user for value for file title; consider asking to default to bind
-fileTitle = str(input("File Title?"))
+fileTitle = input("File Title?")
 #
-contentDir = r"/Users/georgewolf/Documents/GeorgeOnTheWeb/content/"
-template = r"/Users/georgewolf/Documents/PythonicGardening/template.md"
+contentDir = "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/"
+template = "/Users/georgewolf/Documents/PythonicGardening/template.md"
 # Define yaml frontmatter for title as header variable; consider adding other frontmatter options
 #header = "---\n"+"title: {fileTitle}\n"+"---"
 # Create new Markdown file using fileName and userTitle
 def createFile(fileName, fileTitle):
-    usrChoice = input("Enter 1 to create a new file from template: ")
-    if usrChoice == "1":
-        shutil.copy2(template, contentDir)
-        subprocess.call(['vim', contentDir+fileName])
+    usrChoice = input("Enter yes to create a new file from template: ")
+    if usrChoice == "yes":
+        shutil.copy(template, contentDir)
+        os.rename(r"/Users/georgewolf/Documents/GeorgeOnTheWeb/content/template.md", "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/"+fileName)
+        os.chdir("/Users/georgewolf/Documents/GeorgeOnTheWeb/content/")
+        os.system("vi " + fileName)
+        
+        #subprocess.call(['vim', "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/"+fileName])
     else:
         exit
 createFile(fileName, fileTitle)
