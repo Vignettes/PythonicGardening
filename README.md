@@ -41,6 +41,7 @@ Adjust the `template.md` file to match your needs.
 - Graphical interface 
 	- Ruins the "all in terminal" value, would be an optional feature
 - Image upload
+- Fork Quartz repo to a new personal digital garden
 
 ## Requests
 Feature requests will be added here.
