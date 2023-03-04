@@ -50,4 +50,4 @@ Adjust the `template.md` file to match your needs.
 Feature requests will be added here.
 
 # Interested in contributing?
-You can contact me with questions or just fork this repo. 
+You can contact me [@georgeontheweb_](https://www.twitter.com/georgeontheweb_) or just fork this repo. 
