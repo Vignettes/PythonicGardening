@@ -13,5 +13,5 @@ def git_push():
     except:
         print('Some error occured while pushing the code')    
 
-git_push() 
+
 ##
