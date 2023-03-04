@@ -17,7 +17,7 @@ def createFile():
     os.rename(r"/Users/georgewolf/Documents/GeorgeOnTheWeb/content/notes/template.md", "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/notes/"+fileName)
     os.chdir(contentDir)
     os.system("vi " + fileName)
-    
+
 
 
 

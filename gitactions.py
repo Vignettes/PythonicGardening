@@ -8,11 +8,10 @@ def git_push():
         repo = Repo(PATH_OF_GIT_REPO)
         repo.git.add('.')
         repo.index.commit(COMMIT_MESSAGE)
+        # repo.git.push() default argument assumes you are using Quartz 
         repo.git.push("--set-upstream", "origin", "hugo")
-        # origin = repo.remote(name='origin')
-        # origin.push()
         print("Push successful")
     except:
         print('Some error occured while pushing the code')    
-
+    
 
