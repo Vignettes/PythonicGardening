@@ -2,5 +2,5 @@
 
 PATH_OF_GIT_REPO = r'/Users/georgewolf/Documents/GeorgeOnTheWeb/'
 COMMIT_MESSAGE = 'Pushing Changes from PythonicGardening'
-contentDir = "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/"
+contentDir = "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/notes/"
 template = "/Users/georgewolf/Documents/PythonicGardening/template.md"
