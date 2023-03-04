@@ -1,5 +1,5 @@
 from push2gh import createFile 
-from gitactions import git_push
+from gitactions import git_Push
 from editmd import editMd
 from config import *
 import main
@@ -9,7 +9,7 @@ def menu():
     if usrSelect == "start":
         createFile()
     elif usrSelect == "finish":
-        git_push()
+        git_Push()
     elif usrSelect == "edit":
         fileName = input("File Name? ") + ".md"
         editMd(contentDir, fileName)
