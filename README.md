@@ -13,6 +13,20 @@ PythonicGardening will allow you to:
 - Edit a MarkDown file
 	- Both from template and as a new file
 - Push created files to your GitHub repository
+
+# Getting started
+Open `config.py` and adjust the following variables:
+- PATH_OF_GIT_REPO
+	- Set this to the path for the local repo you are going to push updates from
+- COMMIT_MESSAGE
+	- Set this to the default commit message you'd like to use when `git_Push` is executed
+- contentDir 
+	- Set this to the director where the MarkDown files that will be published are stored
+		- **Quartz users**, default will be `.../<repo>/content/notes/`
+- template
+	- Set this to the location for the default MarkDown template you'll be using
+	
+Adjust the `template.md` file to match your needs.	
  
 # Roadmap
 ## Committed
