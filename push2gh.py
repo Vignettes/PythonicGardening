@@ -8,9 +8,9 @@ from config import *
 
 
 def createFile():
-    fileName = input("File Name?") +".md"
+    fileName = input("File Name? ") +".md"
     # fileTitle currently does not update the frontmatter in the MarkDown file
-    fileTitle = input("File Title?")
+    fileTitle = input("File Title? ")
     #contentDir = "/Users/georgewolf/Documents/GeorgeOnTheWeb/content/notes/"
     #template = "/Users/georgewolf/Documents/PythonicGardening/template.md"
     shutil.copy(template, contentDir)
