@@ -19,14 +19,14 @@ PythonicGardening will allow you to:
 Star by either [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) or [downloading a ZIP](https://github.com/Vignettes/PythonicGardening/archive/refs/heads/main.zip) of the files. 
 
 Open `config.py` and adjust the following variables:
-- PATH_OF_GIT_REPO
+- `PATH_OF_GIT_REPO`
 	- Set this to the path for the local repo you are going to push updates from
-- COMMIT_MESSAGE
+- `COMMIT_MESSAGE`
 	- Set this to the default commit message you'd like to use when `git_Push` is executed
-- contentDir 
+- `contentDir` 
 	- Set this to the director where the MarkDown files that will be published are stored
 		- **Quartz users**, default will be `.../<repo>/content/notes/`
-- template
+- `template`
 	- Set this to the location for the default MarkDown template you'll be using
 	
 Adjust the `template.md` file to match your needs.	
@@ -36,9 +36,9 @@ Adjust the `template.md` file to match your needs.
 - Allow user to create custom frontmatter templates to format content
 - Update title in frontmatter based on user input
 - Allow users to customize config.py for:
-	- Content directory (contentDir)  to place created MarkDown files
-	- Git commit message (COMMIT_MESSAGE) to change standard commit verbiage
-	- Git repo path (PATH_OF_GIT_REPO) to change local repo targed for push
+	- Content directory (`contentDir`)  to place created MarkDown files
+	- Git commit message (`COMMIT_MESSAGE`) to change standard commit verbiage
+	- Git repo path (`PATH_OF_GIT_REPO`) to change local repo targed for push
 
 ## Uncomitted
 - Graphical interface 
