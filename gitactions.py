@@ -1,8 +1,7 @@
 from git import Repo
 from config import *
 
-#PATH_OF_GIT_REPO = r'/Users/georgewolf/Documents/PythonicGardening/'  # make sure .git folder is properly configured
-#COMMIT_MESSAGE = 'comment from python script'
+
 
 def git_push():
     try:
