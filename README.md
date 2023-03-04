@@ -1,5 +1,5 @@
 # Overview
-PythonicGardening is a set of tools built to allow a user to create and publish content to their Quartz repository. It was designed to incorporate [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) concepts into a users workflow with [Quartz](https://quartz.jzhao.xyz). 
+pythonicGardening is a set of tools built to allow a user to create and publish content to their Quartz repository. It was designed to incorporate [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) concepts into a users workflow with [Quartz](https://quartz.jzhao.xyz). 
 
 It is used in [GeorgeOnTheWeb](https://github.com/Vignettes/GeorgeOnTheWeb) to allow me to create and push journal entries and quick notes directly to [my digital garden](https://www.georgewolf.net) without leaving the terminal.
 
@@ -7,7 +7,7 @@ It is used in [GeorgeOnTheWeb](https://github.com/Vignettes/GeorgeOnTheWeb) to a
 Because the terminal is a distraction-free environment. You can jot down your note and have it online in under 2 minutes. 
 
 # Features
-PythonicGardening will allow you to:
+pythonicGardening will allow you to:
 - Create a MarkDown file from template
 	- Move created template to content folder, assumes you are using Quartz
 - Edit a MarkDown file
