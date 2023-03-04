@@ -15,9 +15,14 @@ PythonicGardening will allow you to:
 - Push created files to your GitHub repository
 
 # Getting started
-
 Star by either [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) or [downloading a ZIP](https://github.com/Vignettes/PythonicGardening/archive/refs/heads/main.zip) of the files. 
 
+## Depdendencies
+You may need to install the following packages:
+- [git](https://pypi.org/project/python-git/)
+- [mdutils](https://pypi.org/project/mdutils/)
+
+## Configuring PythonicGardening
 Open `config.py` and adjust the following variables:
 - `PATH_OF_GIT_REPO`
 	- Set this to the path for the local repo you are going to push updates from
