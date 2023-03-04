@@ -3,7 +3,7 @@ from config import *
 
 
 
-def git_push():
+def git_Push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
         repo.git.add('.')
