@@ -1,8 +1,8 @@
-from push2gh import createFile 
-from gitactions import git_Push
-from editmd import editMd
+from create_md import createFile 
+from pull_push_git import git_Push, git_Pull
+from edit_md import editMd
 from config import *
-import main
+
 
 def menu():
     usrSelect = input("Start, Edit, Finish, or Quit? ").lower()
@@ -18,5 +18,6 @@ def menu():
     else:
         print("Error")
 
+git_Pull()
 
 menu()
